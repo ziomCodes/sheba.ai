@@ -35,7 +35,7 @@ header {
 }
 
 h1 {
-  margin-top: 20px;
+  margin-top: 15px;
   background-color: black;
    animation: rotate-message 4s infinite;
 }
@@ -44,6 +44,7 @@ h1 {
   position: absolute;
   top: 10px;
   right: 10px;
+  margin-top: 10px;
   padding: 10px 20px;
   font-size: 16px;
   border: none;
@@ -64,6 +65,7 @@ main {
 .input-container {
   display: flex;
   align-items: center;
+  margin-left: 10px;
   margin-bottom: 20px;
 }
 
@@ -76,7 +78,7 @@ input[type="text"] {
 }
 
 #sendButton {
-  margin-left: 10px;
+  margin-left: 20px;
   padding: 10px 20px;
   font-size: 16px;
   border: none;
@@ -114,7 +116,11 @@ input[type="text"] {
   color: white;
 }
 p {
-  color: black;
+  color: white;
+  display: inline-block;
+  background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent black background */
+  padding: 5px 10px; /* Padding for better visual appearance */
+  border-radius: 5px;
   font-weight: bold;
 }
 
